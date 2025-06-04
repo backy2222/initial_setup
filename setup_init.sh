@@ -5,7 +5,7 @@
 # Create user
 sudo adduser backy
 sudo usermod -aG sudo backy
-sudo usermod -aG docker backy
+sudo usermod -aG docker $USER
 
 # Prompt for hostname
 read -p "Enter new hostname for this VPS: " new_hostname
